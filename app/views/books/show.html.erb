@@ -10,6 +10,6 @@
   <%= @book.body %>
 </p>
 
-<span class="link"><%= link_to "Edit",edit_book_path(params[:id]) %></span>
+<%= link_to "Edit",edit_book_path(params[:id]) %>
 <%= "|" %>
-<span class="link"><%= link_to "Back","/books" %></span>
+<%= link_to "Back","/books" %>
